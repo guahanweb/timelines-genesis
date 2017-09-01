@@ -60,3 +60,7 @@ if (require.main === module) {
     throw err;
   });
 }
+
+module.exports = {
+  appStart: appStart
+}
