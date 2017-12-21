@@ -1,0 +1,14 @@
+.container {
+  max-width: 800px;
+}
+
+.header {
+  margin-top: 6rem;
+  text-align: center;
+}
+
+@media (min-width: 550px) {
+  .header {
+    margin-top: 18rem;
+  }
+}
