@@ -1,1 +1,1 @@
-docker build -t ets/roomdetective-ui:$(cat version) .
+docker build -t guahanweb/react-boilerplate:$(cat version) .
