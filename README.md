@@ -1,6 +1,10 @@
-# React Boilerplate
+# Timelines: Genealogies
 
-This repo contains the baseline for setting up a Node.js backend with a React/Redux application bootstrapped in the client.
+This repo is a pet project to use D3 to visually graph biblical genealogies in a timeline. Overlapping major events can give a bit more perspective on the state of the world during those times.
+
+## Visual Timeline
+
+Using D3, we are generating a customizable SVG with interactions to allow for a lot of flexibility. You can see the timeline running on our GitHub Pages for this project.
 
 ## Basic Usage
 
@@ -12,7 +16,7 @@ A Dockerfile has been provided with this app that will allow you to quickly spin
 
 ```sh
 $ git clone <repository>
-$ cd react-boilerplate
+$ cd timelines-genesis
 $ ./build
 ```
 
@@ -22,7 +26,7 @@ $ ./build
 $ docker run -i -p 3000:3000 \
   -e "HOST=0.0.0.0" \
   -e "PORT=3000" \
-  -t guahanweb/react-boilerplate:$(cat version)
+  -t guahanweb/timelines-genesis:$(cat version)
 ```
 
 ### Without Docker
@@ -33,7 +37,7 @@ If you are doing active development or simply want to run the app directly on yo
 
 ```sh
 $ git clone <repository>
-$ cd react-boilerplate/app
+$ cd timelines-genesis/app
 $ npm i
 ```
 

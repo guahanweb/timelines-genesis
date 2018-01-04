@@ -1,1 +1,1 @@
-docker build -t guahanweb/react-boilerplate:$(cat version) .
+docker build -t guahanweb/timelines-genesis:$(cat version) .

@@ -1,12 +1,10 @@
-# top-most EditorConfig file
 root = true
 
-# 4 space indentation
 [*]
-indent_style = space
-indent_size = 4
-charset = utf-8
+end_of_line = lf
+insert_final_newline = true
 
-[*.{js,json,ts,jsx}]
+[*.{js,json,scss,sass,css}]
+charset = utf-8
 indent_style = space
 indent_size = 2
